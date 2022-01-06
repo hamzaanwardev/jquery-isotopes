@@ -1,0 +1,28 @@
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .portfolio-menu {
+    text-align: center;
+  }
+  .portfolio-menu ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 10px 12px;
+  }
+  
+  .portfolio-menu ul li:hover {
+    background: tomato;
+    color: white;
+    cursor: pointer;
+  }
+  .portfolio-menu ul li.active {
+    background: tomato;
+    color: white;
+  }
+  .portfolio-items {
+    width: 100%;
+  }
+  .portfolio-items .item {
+    width: 25%;
+  }
